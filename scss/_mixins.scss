@@ -1,0 +1,71 @@
+@mixin defaultMarginAndPadding(){
+	margin:0;
+	padding:0;
+}
+
+
+@mixin linkStyle(){
+	position: relative;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 7px 25px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+@mixin articleStyle(){
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+@mixin portfolioStyle(){
+	position: relative;
+	margin: 0 auto;
+	width: 32%;
+}
+
+@mixin portfolioHover(){
+	visibility: visible;
+	opacity:0.8;
+}
+
+@mixin arrowStyle(){
+	position: relative;
+	right: 430px;
+}
+
+@mixin croppedStyle(){
+	width: 22px;
+	height: 22px;
+	border: solid 1px white;
+	overflow: hidden;
+}
+
+@mixin imageStyle(){
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+@mixin circleStyle(){
+	width: 20px;
+	height: 20px;
+    background-color: gray;
+    border: solid 1px gray;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+
+@mixin imageHover(){
+	transform: scale(1.2);
+	border-bottom: solid 3px #DF4507;
+}
+
+@mixin socialStyle(){
+	width: 43px;
+	height: 43px;
+	overflow: hidden;
+}
